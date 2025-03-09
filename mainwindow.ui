@@ -26,12 +26,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="m1Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName">
+      <widget class="QLabel" name="m1Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -70,7 +70,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_2">
+        <widget class="QCheckBox" name="m1Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -82,7 +82,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_">
+      <widget class="QSpinBox" name="m1MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -92,7 +92,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo">
+      <widget class="QPushButton" name="m1MoveSolo">
        <property name="text">
         <string>Move</string>
        </property>
@@ -112,21 +112,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home">
+      <widget class="QPushButton" name="m1Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor">
+      <widget class="QPushButton" name="m1On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor">
+      <widget class="QPushButton" name="m1Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -140,7 +140,7 @@
       <x>20</x>
       <y>380</y>
       <width>981</width>
-      <height>192</height>
+      <height>261</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -165,12 +165,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
+    <layout class="QVBoxLayout" name="m2Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_2">
+      <widget class="QLabel" name="m2Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -209,7 +209,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_3">
+        <widget class="QCheckBox" name="m2Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -221,7 +221,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_1">
+      <widget class="QSpinBox" name="m2MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -237,7 +237,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_2">
+      <widget class="QPushButton" name="m2Move">
        <property name="text">
         <string>Move</string>
        </property>
@@ -257,21 +257,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_2">
+      <widget class="QPushButton" name="m2Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_2">
+      <widget class="QPushButton" name="m2MotorOn">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_2">
+      <widget class="QPushButton" name="m2MotorOff">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -288,12 +288,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
+    <layout class="QVBoxLayout" name="m3Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_3">
+      <widget class="QLabel" name="m3Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -332,7 +332,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_4">
+        <widget class="QCheckBox" name="m3Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -344,7 +344,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_2">
+      <widget class="QSpinBox" name="m3MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -354,7 +354,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_3">
+      <widget class="QPushButton" name="m3MoveSolo">
        <property name="text">
         <string>Move</string>
        </property>
@@ -374,21 +374,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_3">
+      <widget class="QPushButton" name="m3Home_2">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_3">
+      <widget class="QPushButton" name="m3On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_3">
+      <widget class="QPushButton" name="m3Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -405,12 +405,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_4">
+    <layout class="QVBoxLayout" name="m4Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_4">
+      <widget class="QLabel" name="m4Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -449,7 +449,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_5">
+        <widget class="QCheckBox" name="m4Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -461,7 +461,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_3">
+      <widget class="QSpinBox" name="m4MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -471,7 +471,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_4">
+      <widget class="QPushButton" name="m4MoveSolo">
        <property name="text">
         <string>Move</string>
        </property>
@@ -491,21 +491,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_4">
+      <widget class="QPushButton" name="m4Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_4">
+      <widget class="QPushButton" name="m4On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_4">
+      <widget class="QPushButton" name="m4Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -522,7 +522,7 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_5">
+    <layout class="QVBoxLayout" name="m5Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
@@ -639,12 +639,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_6">
+    <layout class="QVBoxLayout" name="m7Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_6">
+      <widget class="QLabel" name="m7Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -683,7 +683,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_7">
+        <widget class="QCheckBox" name="m7Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -695,7 +695,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_5">
+      <widget class="QSpinBox" name="m7MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -705,7 +705,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_6">
+      <widget class="QPushButton" name="m7Move">
        <property name="text">
         <string>Move</string>
        </property>
@@ -725,21 +725,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_6">
+      <widget class="QPushButton" name="m7Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_6">
+      <widget class="QPushButton" name="m7On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_6">
+      <widget class="QPushButton" name="m7Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -756,12 +756,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_7">
+    <layout class="QVBoxLayout" name="m6Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_7">
+      <widget class="QLabel" name="m6Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -800,7 +800,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_8">
+        <widget class="QCheckBox" name="m6Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -812,7 +812,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_6">
+      <widget class="QSpinBox" name="m6MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -822,7 +822,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_7">
+      <widget class="QPushButton" name="m6MoveSolo">
        <property name="text">
         <string>Move</string>
        </property>
@@ -842,21 +842,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_7">
+      <widget class="QPushButton" name="m6Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_7">
+      <widget class="QPushButton" name="m6On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_7">
+      <widget class="QPushButton" name="m6Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -873,12 +873,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_8">
+    <layout class="QVBoxLayout" name="m8Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_8">
+      <widget class="QLabel" name="m8Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -917,7 +917,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_9">
+        <widget class="QCheckBox" name="m8Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -929,7 +929,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_7">
+      <widget class="QSpinBox" name="m8MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -939,7 +939,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_8">
+      <widget class="QPushButton" name="m8MoveSolo">
        <property name="text">
         <string>Move</string>
        </property>
@@ -959,21 +959,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_8">
+      <widget class="QPushButton" name="m8Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_8">
+      <widget class="QPushButton" name="m8On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_8">
+      <widget class="QPushButton" name="m8Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -990,12 +990,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_9">
+    <layout class="QVBoxLayout" name="m9Layout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_9">
+      <widget class="QLabel" name="m9Label">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -1034,7 +1034,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="m1_sync_10">
+        <widget class="QCheckBox" name="m9Sync">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -1046,7 +1046,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QSpinBox" name="m1_8">
+      <widget class="QSpinBox" name="m9MoveVal">
        <property name="layoutDirection">
         <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
@@ -1056,7 +1056,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_9">
+      <widget class="QPushButton" name="m9MoveSolo">
        <property name="text">
         <string>Move</string>
        </property>
@@ -1076,21 +1076,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_9">
+      <widget class="QPushButton" name="m9Home">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_9">
+      <widget class="QPushButton" name="m9On">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_9">
+      <widget class="QPushButton" name="m9Off">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -1107,12 +1107,12 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_10">
+    <layout class="QVBoxLayout" name="mAllLayout">
      <property name="leftMargin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="labelMotorName_10">
+      <widget class="QLabel" name="mAllLabel">
        <property name="enabled">
         <bool>true</bool>
        </property>
@@ -1136,7 +1136,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_move_solo_10">
+      <widget class="QPushButton" name="mAllMove">
        <property name="text">
         <string>Move</string>
        </property>
@@ -1159,21 +1159,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_home_10">
+      <widget class="QPushButton" name="mAllHome">
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_on_motor_10">
+      <widget class="QPushButton" name="mAllOn">
        <property name="text">
         <string>Motor ON</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="m1_off_motor_10">
+      <widget class="QPushButton" name="mAllOff">
        <property name="text">
         <string>Motor OFF</string>
        </property>
@@ -1181,123 +1181,183 @@
      </item>
     </layout>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QWidget" name="verticalLayoutWidget_11">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>320</y>
+      <width>48</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="txLayout">
+     <item>
+      <widget class="QLabel" name="txLabel">
+       <property name="text">
+        <string>TX</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="txIndicator">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>119</red>
+             <green>118</green>
+             <blue>123</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>119</red>
+             <green>118</green>
+             <blue>123</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>119</red>
+             <green>118</green>
+             <blue>123</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_12">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>320</y>
+      <width>48</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="rxLayout">
+     <item>
+      <widget class="QLabel" name="rxLabel">
+       <property name="text">
+        <string>RX</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rxIndicator">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>119</red>
+             <green>118</green>
+             <blue>123</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>119</red>
+             <green>118</green>
+             <blue>123</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>119</red>
+             <green>118</green>
+             <blue>123</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>340</y>
-      <width>81</width>
-      <height>18</height>
+      <y>320</y>
+      <width>511</width>
+      <height>51</height>
      </rect>
     </property>
-    <property name="text">
-     <string>serial port:</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>340</y>
-      <width>200</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::FocusPolicy::TabFocus</enum>
-    </property>
-    <property name="acceptDrops">
-     <bool>true</bool>
-    </property>
-    <property name="verticalScrollBarPolicy">
-     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
-    </property>
-    <property name="horizontalScrollBarPolicy">
-     <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="open_serial">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>340</y>
-      <width>88</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Open</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>340</y>
-      <width>30</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(220, 138, 221);
-border-color: rgb(0, 0, 0);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Shape::Box</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="text">
-     <string>RX</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>340</y>
-      <width>30</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(220, 138, 221);
-border-color: rgb(0, 0, 0);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Shape::Box</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="text">
-     <string>RX</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
-    </property>
+    <layout class="QHBoxLayout" name="serialLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>serial port:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="serialAddr">
+       <property name="text">
+        <string>/dev/ttyACM0</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="openSerial">
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="autoscanSerial">
+       <property name="text">
+        <string>Autoscan</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

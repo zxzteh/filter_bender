@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <qpushbutton.h>
+#include <QTimer>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,9 +19,13 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void print(QString text);
+    void print(QString text, QColor color);
 
 private slots:
-    void on_open_serial_clicked();
+    void highlightIndicator(QPushButton *indicator);
+    void on_openSerial_clicked();
+    void on_m1Home_clicked();
 
 private:
     Ui::MainWindow *ui;

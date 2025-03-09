@@ -27,7 +27,6 @@ DST - distance
 SPD - speed
 ACC - accel
 * - optional field
-
 */
 
 class GcodePacketBuilder {

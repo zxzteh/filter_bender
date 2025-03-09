@@ -29,8 +29,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         serial.cpp
         serial.h
-        cmdbuilder.h cmdbuilder.cpp
-        terminal.h terminal.cpp
+
+
+        GcodePacketBuilder.h GcodePacketBuilder.cpp Gcode_reduced_commands.h CmdBuilder.h CmdBuilder.cpp
+        utils.cpp
+        utils.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET filter_bender APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
